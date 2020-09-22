@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>わくわく⭐︎しもごうワ〜ルド</title>
+<style type="text/css">
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  
+h2{
+    font-size: 30px;
+ text-align:right;
+
+  
+  }
+  
+  
+  
+  #map_div{
+position:relative;
+
+      top:50px;
+    left:-10px;
+    
+  }  
+  
+  #map{
+    zoom:0.469;
+  }
+  
+  .map_icon{
+    zoom:0.3;
+    
+  }
+  
+  #hutamatayama{
+    position: absolute;
+    top:40px;
+    left:800px;
+    width:800px; 
+  }
+  
+  #heihou_stone{
+    position: absolute;
+    top:500px;
+    left:3500px;   
+    width:600px; 
+  }
+  
+  #huji_no_hana{
+    position: absolute;
+    top:100px;
+    left:4000px;
+    width:800px;
+    }
+  
+  #huketu{
+    position: absolute;
+    top:1450px;
+    left:1600px;
+      width:600px;
+  }
+  
+  
+  
+  #jinku_omikuji{
+    position: absolute;
+    top:1700px;
+    left:3900px;
+    
+  }
+  
+  #kannon_numa{
+    position: absolute;
+    top:150px;
+    left:3100px;
+    width:700px;
+  }
+  
+  #onumazaki_tunnel{
+    position: absolute;
+    top:1400px;
+    left:160px;
+    width:900px; 
+    transform:rotate(-15deg);
+  }
+  
+  #sainokami_game{
+    position: absolute;
+    top:1800px;
+    left:2150px;
+    width:520px;
+  }
+    
+  #soba_hatake_game{
+    position: absolute;
+    top:350px;
+    left:2600px;
+  }
+  
+  #takarabako_shingoro{
+    position: absolute;
+    top:250px;
+    left:1750px;
+    width:350px;
+  }
+  
+  #takarabako_shingoro2{
+    position: absolute;
+    top:2550px;
+    left:2800px;
+    width:300px
+  }  
+  
+  #takarabako_shingoro3{
+    position: absolute;
+    top:2450px;
+    left:4550px;
+    width: 350px;
+  }
+  
+  #tono_heturi{
+    position: absolute;
+    top:850px;
+    left:1600px;
+    width: 550px;
+  }
+  
+  #yamazakura_game{
+    position: absolute;
+    top:1220px;
+    left:3150px;
+  }
+  
+  #yunokami_onsen{
+    position: absolute;
+    top:1100px;
+    left:1000px;
+    width:500px
+  }
+  
+  #sakuragi_hime_game{
+    position: absolute;
+    top:1950px;
+    left:950px;
+    width:900px;
+  }
+  
+  
+  
+  
+.map_icon:hover{
+  opacity:0.5;}
+
+.map_icon{
+  animation-name: icon_anime;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction:normal;
+  animation-play-state:running;
+  animation-timing-function:linear;
+  }
+
+@keyframes icon_anime{
+0%{transform:translate(0, 0) rotate(0deg);}
+25%{transform:translate(0, 0) rotate(5deg);}
+50%{transform:translate(0, 0) rotate(0deg);}
+75%{transform:translate(0, 0) rotate(-5deg);}  
+100% {transform:translate(0, 0)rotate(0deg);}
+}
+  
+body {
+  background-image:url(other_img/background.png);
+  background-size: 160%  ;
+}
+  
+#titile_wakuwaku_shimogo{
+    position:absolute;
+    top:950px;
+    left:55px;
+    width:1400px;
+    }
+  
+#logo_tizuzho_no_icon_click_please{
+    position:absolute;
+    top:1100px;
+    left:350px;
+    width:800px;
+  }
+  
+  
+#logo_goaisatu{
+    position:absolute;
+    top:1350px;
+    left:300px;
+    width:450px;
+  }
+  
+#logo_freepaper_go_towa{
+    position:absolute;
+    top:1500px;
+    left:300px;
+    width:1100px;
+  
+  }
+  
+#logo_osusume_shimogo{
+    position:absolute;
+      top:1650px;
+    left:300px;
+    width:750px;
+  }
+  
+#logo_seisakusya_shokai{
+    position:absolute;
+      top:1800px;
+    left:300px;
+    width:450px;
+ 
+  }
+  
+
+  
+</style>
+
+  
+  </head>
+  
+  
+  
+<body>
+ <audio id="se">
+   <source src="sound/se_maoudamashii_onepoint30.mp3" type="audio/mp3">
+</audio>
+   
+   <audio id="se_2">
+   <source src="sound/se_maoudamashii_onepoint03.mp3" type="audio/mp3">
+</audio>
+   
+
+ 
+<div>
+  <div id="map_div"><img id="map" src="map_img/map_shitaji.png"></div>
+  
+  <a href="link_img/huketu.gif" target="_blank"><img id="huketu" class="map_icon" src="map_img/huketu.png" onclick="click_se()"></a> 
+  <a href="link_img/kannon_numa.gif" target="_blank"><img id="kannon_numa" class="map_icon" src="map_img/kannon_numa.png" onclick="click_se()"></a>
+   <a href="link_img/heiho_stone.gif" target="_blank"><img id="heihou_stone" class="map_icon" src="map_img/heihou_stone.png"  onclick="click_se()"></a>
+   <a href="link_img/machi_no_hana.gif" target="_blank"><img id="huji_no_hana" class="map_icon" src="map_img/huji_no_hana.png" onclick="click_se()"></a>
+   <a href="link_img/onumazaki_tunnel.gif" target="_blank"><img id="onumazaki_tunnel" class="map_icon" src="map_img/onumazaki_tunnel.png" onclick="click_se()"></a>
+  
+  
+   <a href="link_img/shingoro_1.gif" target="_blank"><img id="takarabako_shingoro" class="map_icon" src="map_img/takarabako_shingoro.png" onclick="click_se_jarn()"></a>
+    <a href="link_img/shingoro_2.gif" target="_blank"><img id="takarabako_shingoro2" class="map_icon" src="map_img/takarabako_shingoro.png" onclick="click_se_jarn()"></a>
+   <a href="link_img/shingoro_3.gif" target="_blank"><img id="takarabako_shingoro3" class="map_icon" src="map_img/takarabako_shingoro.png" onclick="click_se_jarn()"></a>
+  
+  
+  <a href="link_img/tono_hetsuri_bridge.gif" target="_blank"><img id="tono_heturi" class="map_icon" src="map_img/tono_heturi.png" onclick="click_se()"></a>
+    <a href="link_img/yunokami_onsen.gif" target="_blank"> <img id="yunokami_onsen" class="map_icon" src="map_img/yunokami_onsen.png" onclick="click_se()"></a>
+  
+  
+  
+  
+  
+
+<a href="game/jinku_game.html" target="_blank"><img id="jinku_omikuji" class="map_icon" src="map_img/jinku_omikuji.png"></a>
+  
+<a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank">  
+ <img id="sainokami_game" class="map_icon" src="map_img/sainokami_game.png"></a>
+
+  <a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank">   
+  <img id="hutamatayama" class="map_icon" src="map_img/hutamatayama_game.png"></a>
+
+  <a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank">  
+  <img id="sakuragi_hime_game" class="map_icon" src="map_img/sakuragi_hime_game.png"></a>
+    
+  <a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank"> 
+  <img id="soba_hatake_game" class="map_icon" src="map_img/soba_hatake_game.png"></a>
+    
+  <a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank"> 
+  <img id="yamazakura_game" class="map_icon" src="map_img/yamazakura_game.png"></a>
+
+  
+  </div>
+   <h2><br>音楽と効果音:　魔王魂　様</h2>
+ <img id="titile_wakuwaku_shimogo" src="other_img/titile_wakuwaku_shimogo.png"> 
+  <img id="logo_tizuzho_no_icon_click_please" src="other_img/logo_tizuzho_no_icon_click_please.png"> 
+  
+  <a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank"> <img id="logo_goaisatu" src="other_img/logo_goaisatu.png"></a> 
+    
+  <a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank"><img id="logo_freepaper_go_towa" src="other_img/logo_freepaper_go_towa.png"></a> 
+    
+  <a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank"> <img id="logo_osusume_shimogo" src="other_img/logo_osusume_shimogo.png"></a>
+  
+  <a href="link_img/shigoto_zaitaku_cat_man.png" target="_blank"> <img id="logo_seisakusya_shokai" src="other_img/logo_seisakusya_shokai.png"></a> 
+  
+  
+
+  
+<script>
+
+function click_se() {
+　　document.getElementById("se").play();
+}
+        
+function click_se_jarn() {
+　　document.getElementById("se_2").play();
+}
+  
+  
+
+  </script>
+
+</body>
+
+</html>

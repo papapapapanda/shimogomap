@@ -66,7 +66,7 @@ footer{	text-align: center;}
 .dropdown-menu {	float:left;	margin: 0 2px 0 2px;	width: 245px;	list-style: none;}
 
 /*メニューの一番上のボタンの中身の設定 */
-.dropdown-menu > #menu1, #menu2, #menu3, #menu4{ display: block;	padding: 5px 0px 5px 40px;	background-color:rgb(255, 136, 0);	background-position: 1px 10%;	background-repeat: no-repeat;	color:whitesmoke;	font-size: 15px;	border-radius: 10px;	text-decoration: none;	font-family:serif;	font-weight: 500;}
+.dropdown-menu > #menu1, #menu2, #menu3, #menu4{cursor: pointer; display: block;	padding: 5px 0px 5px 40px;	background-color:rgb(255, 136, 0);	background-position: 1px 10%;	background-repeat: no-repeat;	color:whitesmoke;	font-size: 15px;	border-radius: 10px;	text-decoration: none;	font-family:serif;	font-weight: 500;}
 .dropdown-menu > #menu1{background-image: url(image/obaba_menue.png);}
 .dropdown-menu > #menu2{background-image: url(image/menue_hanasaka.png);}
 .dropdown-menu > #menu3{background-image: url(image/menue_hutamatayama.png);}

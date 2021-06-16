@@ -5,7 +5,7 @@
 
 //ヘッダーのメニュー     
     $(function(){
-    $('.dropdown-menu').children('a').on('click', function(event){
+    $(document).children('a').on('click', '.dropdown-menu',function(event){
         event.preventDefault();  event.stopPropagation();
          /*複数メニューの処理用*/$(this).parent().siblings('li').children('a').removeClass('open').next().hide(200);
        

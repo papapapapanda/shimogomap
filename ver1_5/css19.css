@@ -63,7 +63,7 @@ footer{	text-align: center;}
 
 /*メニューの一番上のボタンの基本の設定*/
 .wrapper-menubar {	height: 25px;	position: relative;    z-index:100;	}
-.dropdown-menu {	float:left;	margin: 0 2px 0 2px;	width: 245px;	list-style: none;}
+.dropdown-menu { cursor: pointer;	float:left;	margin: 0 2px 0 2px;	width: 245px;	list-style: none;}
 
 /*メニューの一番上のボタンの中身の設定 */
 .dropdown-menu > #menu1, #menu2, #menu3, #menu4{cursor: pointer; display: block;	padding: 5px 0px 5px 40px;	background-color:rgb(255, 136, 0);	background-position: 1px 10%;	background-repeat: no-repeat;	color:whitesmoke;	font-size: 15px;	border-radius: 10px;	text-decoration: none;	font-family:serif;	font-weight: 500;}

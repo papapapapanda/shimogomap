@@ -33,7 +33,7 @@ body{     margin-right: auto;    margin-left : auto;    width:1050px;  backgroun
 #title_rogo_dokidoki{position:relative; margin-top: 10px;zoom:2.55;
 	animation-name: kakudai_anime;  animation-duration:1.2s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
 
-#title_rogo_star{position:relative; margin-top:10px;width:30;zoom:2.55;
+#title_rogo_star{position:relative; margin-top:10px;width:0.3%;zoom:2.55;
 	animation-name: yurayura_anime;  animation-duration:0.6s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
 
 #title_rogo_star_smafo{display: none; position:relative; margin-top:10px;width:30;zoom:2.55;
@@ -63,10 +63,10 @@ footer{	text-align: center;}
 
 /*メニューの一番上のボタンの基本の設定*/
 .wrapper-menubar {	height: 25px;	position: relative;    z-index:100;	}
-.dropdown-menu { cursor: pointer;	float:left;	margin: 0 2px 0 2px;	width: 245px;	list-style: none;}
+.dropdown-menu {	float:left;	margin: 0 2px 0 2px;	width: 245px;	list-style: none;}
 
 /*メニューの一番上のボタンの中身の設定 */
-.dropdown-menu > #menu1, #menu2, #menu3, #menu4{cursor: pointer; display: block;	padding: 5px 0px 5px 40px;	background-color:rgb(255, 136, 0);	background-position: 1px 10%;	background-repeat: no-repeat;	color:whitesmoke;	font-size: 15px;	border-radius: 10px;	text-decoration: none;	font-family:serif;	font-weight: 500;}
+.dropdown-menu > #menu1, #menu2, #menu3, #menu4{ display: block;	padding: 5px 0px 5px 40px;	background-color:rgb(255, 136, 0);	background-position: 1px 10%;	background-repeat: no-repeat;	color:whitesmoke;	font-size: 15px;	border-radius: 10px;	text-decoration: none;	font-family:serif;	font-weight: 500;}
 .dropdown-menu > #menu1{background-image: url(image/obaba_menue.png);}
 .dropdown-menu > #menu2{background-image: url(image/menue_hanasaka.png);}
 .dropdown-menu > #menu3{background-image: url(image/menue_hutamatayama.png);}

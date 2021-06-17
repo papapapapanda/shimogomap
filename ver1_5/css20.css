@@ -31,17 +31,17 @@ body{     margin-right: auto;    margin-left : auto;    width:1050px;  backgroun
 .map_icon_active{ zoom:0.3; opacity:0.8;}
 
 /*タイトルロゴ*/
-#title_rogo_star_smafo{display: none;; margin-top:10px;width:30; position:relative;zoom:3.5;left: 53px;
+#title_rogo_star_smafo{display: inline; margin-top:1%; position:relative;zoom:3.5;
 	animation-name: yurayura_anime;  animation-duration:0.6s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
-#title_rogo_dokidoki{position:relative; margin-top: 10px;zoom:3.55; left:53px;
+#title_rogo_dokidoki{position:relative; margin-top: 1%;zoom:3.55;
 	animation-name: kakudai_anime;  animation-duration:1.2s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
-#title_rogo_star{position:relative; margin-top:10px;width:30;zoom:3.55;left:53px;
+#title_rogo_star{position:relative; margin-top:1%;zoom:3.55;
 	animation-name: yurayura_anime;  animation-duration:0.6s;  animation-iteration-count:infinite;   animation-timing-function:linear; }
-#title_rogo_shimogo_wordl{position:relative;margin-top: 10px; zoom:4;left:12px; margin-top: 0;
-	animation-name: tenmetsu_anime;  animation-duration:0.6s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
 
+#title_rogo_shimogo_wordl{position:relative;margin-top: 1%; zoom:4; margin-top: 0; padding: 0 5% 0 5%;
+		animation-name: tenmetsu_anime;  animation-duration:0.6s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
 
-
+#rogo_centering{text-align: center;}
 
 
 
@@ -126,7 +126,7 @@ footer{	text-align: center;}
 
 
 /*メニューの一番上のボタンの基本の設定*/
-.dropdown-menu {width: 980px;	height :100px;}
+.dropdown-menu {width: 95%;	height :100px;}
 
 /*メニューの一番上のボタンの中身の設定 */
 .dropdown-menu > #menu1, #menu2, #menu3, #menu4{ height: 80px;background-size: contain; font-size: 50px;  background-position: 30px; }
@@ -136,7 +136,7 @@ footer{	text-align: center;}
 .dropdown-menu > #menu4{padding-left:200px ; background-position: 90px;}
 
 /* メニュー一覧の基本設定 */
-.dropdown-menu > .items {width: 560px;}
+.dropdown-menu > .items {width: 55%;}
 .dropdown-menu > .items li img {position:relative; top:4px; width:55px;}
 .map_icon_link{ font-size: 45px;   }
 /*ローディング画面の幅*/
@@ -157,7 +157,7 @@ footer{	text-align: center;}
 
 	#title_rogo_star{zoom:2.55; }
 	
-	#title_rogo_star_smafo{zoom:2.55;	display: inline;}
+	#title_rogo_star_smafo{ zoom:2.55;	}
 	#title_rogo_shimogo_wordl{zoom:2.55;}
 
 }

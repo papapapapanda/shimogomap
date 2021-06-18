@@ -150,63 +150,9 @@ footer{	text-align: center;}
 
 /*マップがウィンドウからはみ出したときの処理*/
 #map_div{zoom:1.3; padding-left:20px; padding-right: 20px;
-	box-sizing: border-box; width:800px; overflow:auto ;}
+	box-sizing: border-box; width:800px; overflow-x:scroll; overflow-y: hidden;}
 
 /*スクロールの説明書き*/	
 	#scroll_setumei{display:block; font-weight:bolder; font-size: 40px;text-align: center;}
 
 
-
-/*
-@media screen and (min-width:990px) {
-	#title_rogo_dokidoki{zoom:2.55;}
-
-	#title_rogo_star{zoom:2.55; }
-	
-	#title_rogo_star_smafo{ zoom:2.55;	}
-	#title_rogo_shimogo_wordl{zoom:2.55;}
-
-}
-
-
-/*
- /* スマフォ対応CSS 
- @media screen and (max-width:600px) {
- 
-	.wrapper-menubar {
-		height: 30px;
-	}
-	.menubar {
-		top: 0;
-	}
-	.dropdown-menu > a {
-		border-radius: 0 0 5px 5px;
-		font-size: 0.8em;
-	}
-	.dropdown-menu > .items li a {
-		font-size: 0.8em;
-	}
-	#splash {
-	height: 31%;}
-}
-
-========= レイアウトのためのCSS ===============
-
-
-#container{
-    width:100%;
-    height: 100vh;
-    background: #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-a{
-    color: #333;
-}
-
-a:hover{
-     text-decoration: none;   
-}

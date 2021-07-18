@@ -1,11 +1,11 @@
 //効果音
     function click_se() {document.getElementById("se").play();}
-    function click_se_jarn() {document.getElementById("se_2").play();}
+    function click_se_jarn() {document.getElementById("se_2").play();} 
 
 
 //ヘッダーのメニュー     
     $(function(){
-    $('.dropdown-menu').children('a').on('click', function(event){
+    $('.each_menu').children('a').on('click', function(event){
         event.preventDefault();  event.stopPropagation();
 		var $this = $(this);
   
@@ -13,10 +13,10 @@
        
     if($this.hasClass('open')) {
                 $this.removeClass('open').next().hide(200);
-                $('html').off('click', closeItems);} 
+                $('html').off('click', menu_tojiru);} 
         else { $this.addClass('open').next().show(400);
-                $('html').on('click', closeItems);}
-        function closeItems() {$this.removeClass('open').next().hide(200);}  
+                $('html').on('click', menu_tojiru);}
+        function menu_tojiru() {$this.removeClass('open').next().hide(200);}  
     }); });
 
   

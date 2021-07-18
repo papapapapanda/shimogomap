@@ -17,30 +17,36 @@
 
 </head>
 <body>
-<header>
+  
+    <audio id="se"><source src="sound/se_maoudamashii_onepoint30.mp3" type="audio/mp3"></audio>
+    <audio id="se_2"><source src="sound/se_maoudamashii_onepoint03.mp3" type="audio/mp3"></audio>
+                
 
+<header>
+<!--スマフォ版、パソコン版切り替えメニューバー-->
     <a id="kirikae_shiji" href="map51.html">スマフォ版はここをクリック！</a>
 
-    <div class="wrapper-menubar">
-    <ul class="menubar">
-        <li class="dropdown-menu">
+<!--メニューバー-->
+    <div class="header_menu">
+    <ul>
+        <li class="each_menu">
             <a id="menu1" href="#">　　ごあいさつとか紹介とか</a>
-            <ul class="items">
+            <ul class="menu_contents">
                 <li><a class="map_icon_link" href="image/goaisatu.png" target="_blank">ごあいさつ</a></li>
                 <li><a class="map_icon_link" href="image/gou_towa.png" target="_blank">フリーペーパー<br>「ごう」とは？</a></li> 
                 <li><a class="map_icon_link" href="https://yrin71.github.io/gou/" target="_blank">おすすめしもごう</a></li>
                 <li><a class="map_icon_link" href="image/kapuro_towa.png" target="_blank">課外プロジェクト<br>について</a></li> 
             </ul>
         </li>
-        <li class="dropdown-menu">
+        <li class="each_menu">
             <a id="menu2" href="#">　　　　おすすめしもごう</a>
-            <ul class="items">
+            <ul class="menu_contents">
                 <li><a class="map_icon_link" href="https://yrin71.github.io/gou/" target="_blank">おすすめしもごう</a></li>
       </ul>
         </li>
-        <li class="dropdown-menu">
+        <li class="each_menu">
             <a id="menu3" href="#">　しもごうイイトコ名所巡り</a>
-            <ul class="items">
+            <ul class="menu_contents">
             <!--名所gifへのリンク-->
                 <li><a class="map_icon_link" href="link_img/huketu.gif" target="_blank" onclick="click_se()">風穴洞<img src="image/icon_fuketu.png"></a></li>
                 <li><a class="map_icon_link" href="link_img/kannon_numa.gif" target="_blank" onclick="click_se()">観音沼<img src="image/icon_kannon_numa.png"></a></li>
@@ -54,9 +60,9 @@
                 <li><a class="map_icon_link" href="link_img/yunokami_onsen.gif" target="_blank" onclick="click_se()">湯野上温泉<img src="image/icon_onsen.png"></a></li>
                         </ul>
         </li>
-        <li class="dropdown-menu">
+        <li class="each_menu">
             <a id="menu4" href="#">　　しもごう☆ゲーム</a>
-            <ul class="items">
+            <ul class="menu_contents">
             <!--メニューからゲームへのリンク-->           
                 <li><a class="map_icon_link" href="https://papapapapanda.github.io/test/" target="_blank">下郷甚句<img src="image/icon_jinku_omikuji.png"></a></li>
                 <li><a class="map_icon_link" href="https://yonesuke3.github.io/sainokami.github.io/" target="_blank">さいのかみ<img src="image/icon_sainokami_game.png"></a></li>
@@ -69,15 +75,14 @@
 
     </ul>
 </div>
-    <img id="title_rogo_star_smafo" src="image/title_rogo_star.png">
+<!--タイトルロゴ-->
+<img id="title_rogo_star_smafo" src="image/title_rogo_star.png">
     <img id="title_rogo_dokidoki" src="image/title_rogo_dokidoki.png">
     <img id="title_rogo_star" src="image/title_rogo_star.png">
     <img id="title_rogo_shimogo_wordl" src="image/title_rogo_shimogo_world.png">
-
     <img id="logo_tizuzho_no_icon_click_please" src="other_img/logo_tizuzho_no_icon_click_please.png">  
-                                                                                 
-   </header>
-
+                                                                              
+ </header>
 
 
     <!--効果音-->
@@ -125,7 +130,7 @@
     <p><b>　更新履歴</b>
     <br>　2021.1.8　　2020年度版(2020.ver1)公開 
     <br> 　　　　　　⇒2020年度版は<a class="link_decolation" href="2020/2020ver.htlm">こちら</a>
-    <br>　2021.7.18　2020.ver2 公開</p>
+    <br>　2021.7.　　2020.ver2 公開</p>
 </div>
 
 

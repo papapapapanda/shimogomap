@@ -1,4 +1,4 @@
-body{     margin-right: auto;    margin-left : auto;    width:550px;  background-color:antiquewhite;}
+body{     margin-right: auto;    margin-left : auto;    width:375px;  background-color:antiquewhite;}
 
 /*メニューの一番上のボタンの基本の設定*/
 .header_menu {	height: 25px;	position: relative;    z-index:100;	}
@@ -11,7 +11,7 @@ body{     margin-right: auto;    margin-left : auto;    width:550px;  background
 	font-size: 20px; text-decoration: none;	font-family:serif;	font-weight: 500;color:whitesmoke;}
 .each_menu > #menu1{background-image: url(image/obaba_menue.png);padding: 2% 0 0 18%; }
 .each_menu > #menu2{background-image: url(image/menue_hanasaka.png);padding: 2% 0 0 18%;background-position: 18%; }
-.each_menu > #menu3{background-image: url(image/menue_hutamatayama.png);padding: 2% 0 0 23%;background-position: 12%;}
+.each_menu > #menu3{background-image: url(image/menue_hutamatayama.png);padding: 2% 0 0 3%;background-position: 12%;}
 .each_menu > #menu4{background-image: url(image/menue_ojiji.png);padding: 2% 0 0 28%;background-position: 20%;}
 .each_menu > a:hover {color:yellowgreen;}
 .each_menu > a:active {color:yellowgreen;}
@@ -57,6 +57,23 @@ body{     margin-right: auto;    margin-left : auto;    width:550px;  background
 #huji_no_hana{position: absolute;top:-8%;left:150%;width:30%;}
 #jinku_omikuji{position: absolute;top:58%;left:150%;width:25%;}
 #takarabako_shingoro3{position:absolute;top:80%;left:178%;width:12%;}
+
+#hutamatayama{left:54%; width:45%;}
+#onumazaki_tunnel{left:12%;width:45%;}
+#sakuragi_hime_game{left:61.5%;width:45%;}
+#yunokami_onsen{left:60%;width:27%;} 
+#tono_heturi{left:93%;width:28.5%;}
+#huketu{left:97.5%;width:30%;}
+#takarabako_shingoro{left:100%;width:18%;}
+#sainokami_game{left:124.5%;width:30%;}
+#takarabako_shingoro2{left:160.5%;width:15%;}  
+#soba_hatake_game{left:147%;width:35.5%;}
+#kannon_numa{left:172.5%;width:37.5%;}
+#yamazakura_game{left:180%;width:33%;}
+#heihou_stone{left:198%;width:37.5%; }
+#huji_no_hana{left: 225%;width:45%;}
+#jinku_omikuji{left:225%;width:37.5%;}
+#takarabako_shingoro3{left:267%;width:18%;}
 
 
 /*地図スクロールの説明*/

@@ -11,7 +11,7 @@ body{     margin-right: auto;    margin-left : auto;    width:375px;  background
 	font-size: 20px; text-decoration: none;	font-family:serif;	font-weight: 500;color:whitesmoke;}
 .each_menu > #menu1{background-image: url(image/obaba_menue.png);padding: 2% 0 0 18%; }
 .each_menu > #menu2{background-image: url(image/menue_hanasaka.png);padding: 2% 0 0 18%;background-position: 18%; }
-.each_menu > #menu3{background-image: url(image/menue_hutamatayama.png);padding: 2% 0 0 3%;background-position: 12%;}
+.each_menu > #menu3{background-image: url(image/menue_hutamatayama.png);padding: 2% 0 0 18%;background-position: 12%;}
 .each_menu > #menu4{background-image: url(image/menue_ojiji.png);padding: 2% 0 0 28%;background-position: 20%;}
 .each_menu > a:hover {color:yellowgreen;}
 .each_menu > a:active {color:yellowgreen;}

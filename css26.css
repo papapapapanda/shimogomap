@@ -1,0 +1,121 @@
+body{     margin-right: auto;    margin-left : auto;    width:550px;  background-color:antiquewhite;}
+
+/*メニューの一番上のボタンの基本の設定*/
+.header_menu {	height: 25px;	position: relative;    z-index:100;	}
+.each_menu { cursor: pointer;	float:left;	margin: 1%;width: 95%;	list-style: none;}
+
+/*メニューの一番上のボタンの中身の設定 */
+.each_menu > #menu1, #menu2, #menu3, #menu4{
+	width:100%;height: 35px;cursor: pointer; display: block;
+	background-size: contain;   background-color:rgb(255, 136, 0);	background-position: 30px;	background-repeat: no-repeat; border-radius: 10px;
+	font-size: 20px; text-decoration: none;	font-family:serif;	font-weight: 500;color:whitesmoke;}
+.each_menu > #menu1{background-image: url(image/obaba_menue.png);padding: 2% 0 0 18%; }
+.each_menu > #menu2{background-image: url(image/menue_hanasaka.png);padding: 2% 0 0 18%;background-position: 18%; }
+.each_menu > #menu3{background-image: url(image/menue_hutamatayama.png);padding: 2% 0 0 23%;background-position: 12%;}
+.each_menu > #menu4{background-image: url(image/menue_ojiji.png);padding: 2% 0 0 28%;background-position: 20%;}
+.each_menu > a:hover {color:yellowgreen;}
+.each_menu > a:active {color:yellowgreen;}
+
+/* メニュー一覧の各コンテンツの設定 */
+.each_menu > .menu_contents {	display: none;	margin: 2px 0 0 0; width: 55%;	position: absolute; list-style: none;}
+.each_menu > .menu_contents li img {position:relative; top:4px; width:25px;}
+/* メニュー一覧のホバーとリンククリック後*/
+.map_icon_link{display: block;	padding: 5px 0;	background: #e08207d7;	color: #fff; font-size: 15px;	text-align: center;	margin: 2px 0 0 0;border-radius: 5px; font-size: 15px;  }
+.map_icon_link:hover {background: yellowgreen; color: rgba(161, 100, 59, 0.658);}
+.map_icon_link_visited{background: rgba(119, 150, 59, 0.74); color: rgb(206, 102, 33);}
+
+/*タイトルロゴ*/
+#title_rogo_star_smafo{width:15%;display: inline; margin-top:1%; position:relative;
+	animation-name: yurayura_anime;  animation-duration:0.6s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
+#title_rogo_dokidoki{position:relative; margin-top: 1%;width:55%;
+	animation-name: kakudai_anime;  animation-duration:1.2s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
+#title_rogo_star{position:relative; margin-top:1%;width:15%;
+	animation-name: yurayura_anime;  animation-duration:0.6s;  animation-iteration-count:infinite;   animation-timing-function:linear; }
+#title_rogo_shimogo_wordl{position:relative;margin-top: 1%; width:100%; margin-top: 0; padding: 0 5% 0 5%;
+		animation-name: tenmetsu_anime;  animation-duration:0.6s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
+#rogo_centering{text-align: center;}
+
+
+/*マップ関係のCSS*/
+#map_div{position:relative; width:130%	;  zoom:0.705; 
+		margin-top: 20px; padding-left:20px; padding-right: 20px;
+	box-sizing: border-box;  overflow-x:scroll; overflow-y: hidden;}
+#map{border: solid 10px rgb(250, 113, 2)}
+#hutamatayama{position: absolute;top:-3.5%; left:36%; width:30%;}
+#onumazaki_tunnel{position: absolute; top:50%; left:8%;width:30%;}
+#sakuragi_hime_game{position:absolute; top:68%;left:41%;width:30%;}
+#yunokami_onsen{position: absolute;top:35%;left:40%;width:18%;} 
+#tono_heturi{position: absolute;top:25%;left:62%;width:19%;}
+#huketu{position: absolute;top:52%;left:65%;width:20%;}
+#takarabako_shingoro{position:absolute;top:4%;left:72%;width:12%;}
+#sainokami_game{position:absolute;top:59%;left:83%;width:20%;}
+#takarabako_shingoro2{position:absolute;top:88%;left:107%;width:10%;}  
+#soba_hatake_game{position:absolute;top:8%;left:98%;width:23%;}
+#kannon_numa{position:absolute;top:-1%;left:115%;width:25%;}
+#yamazakura_game{position:absolute; top:40%;left:120%;width:22%;}
+#heihou_stone{position:absolute;top:10%;left:132%;width:25%; }
+#huji_no_hana{position: absolute;top:-8%;left:150%;width:30%;}
+#jinku_omikuji{position: absolute;top:58%;left:150%;width:25%;}
+#takarabako_shingoro3{position:absolute;top:80%;left:178%;width:12%;}
+/*地図スクロールの説明*/
+#scroll_setumei{text-align: center; font-size: larger;margin:2% auto 5% auto;}
+
+/*マップのアイコンのアニメーションとクリック後の処理*/
+.map_icon:hover{  opacity:0.5;} 
+.map_icon{ animation-name: yurayura_anime;  animation-duration:0.8s;  animation-iteration-count:infinite;   animation-timing-function:linear;  }
+
+/*アニメーション効果*/
+@keyframes yurayura_anime{0%{transform:translate(0, 0) rotate(0deg);}25%{transform:translate(0, 0) rotate(5deg);}50%{transform:translate(0, 0) rotate(0deg);}75%{transform:translate(0, 0) rotate(-5deg);}  100% {transform:translate(0, 0)rotate(0deg);}}
+@keyframes tenmetsu_anime{0%{opacity: 1;} 25%{opacity: 0.75;} 50%{opacity: 0.5;}  75%{opacity: 0.75;}100%{opacity: 1;}}
+@keyframes kakudai_anime{0%{transform: scale(1)} 50%{transform: scale(0.85)}  100%{transform: scale(1)}}
+
+#logo_tizuzho_no_icon_click_please{position:relative;  width:100%;  margin-top: 0px; margin-bottom: 0px;}
+
+
+/*テキストのフォントと位置指定*/
+h1{    font-size: 50px;    text-align: center;}
+h2{    font-size: 30px; text-align:right;   }
+
+/*ごあいさつ等のロゴ 位置指定*/
+#mainpage_rogo{position: relative; margin-top: 5%;margin-bottom: 5%;}
+.each_logo{position:relative; margin-bottom:2%;}
+
+#logo_goaistu{width:45%;}
+#logo_goutowa{width:100%;}
+#logo_osusumeshiogo{width:70%}
+#logo_kapurotowa{width:100%}
+
+/*出典　リンク色付け　　 一部のブラウザでリンク表示にならないため*/
+#syutten{	text-align: right;	margin-top: 0px;}
+
+.link_decolation:hover{color:red;
+}
+
+/* 更新履歴*/
+#kousin_rireki{width: 100%; 	height: auto;	 border: solid 5px rgb(250, 113, 2);
+	background-color:rgba(231, 216, 203, 0.452);}
+
+footer{	text-align: center;}.link_decolation{color:blue;
+		text-decoration:underline;
+	}
+	
+
+
+
+
+
+
+/*
+スクロールの説明（スマフォだけに表示）
+#scroll_setumei{display:none;}
+*/
+
+
+
+
+
+
+
+
+
+

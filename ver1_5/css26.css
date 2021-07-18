@@ -1,10 +1,4 @@
-body{     margin-right: auto;    margin-left : auto;    width:80%;  background-color:antiquewhite;}
-
-#kirikae_shiji{
-	display: block;
-	font-size: larger;
-	text-align: right;
-}
+body{     margin-right: auto;    margin-left : auto;    width:100%;  background-color:antiquewhite;}
 
 /*メニューの一番上のボタンの基本の設定*/
 .header_menu {	height: 25px;	position: relative;    z-index:100;	}
@@ -27,9 +21,7 @@ body{     margin-right: auto;    margin-left : auto;    width:80%;  background-c
 .map_icon_link{display: block;	padding: 5px 0;	background: #e08207d7;	color: #fff; font-size: 15px;	text-align: center;	margin: 2px 0 0 0;border-radius: 5px;   }
 .map_icon_link:hover {background: yellowgreen; color: rgba(161, 100, 59, 0.658);}
 .map_icon_link_visited{background: rgba(119, 150, 59, 0.74); color: rgb(206, 102, 33);}
-/* 更新履歴*/
-#kousin_rireki{width: 1050px; 	height: auto;	 border: solid 5px rgb(250, 113, 2);
-	background-color:rgba(231, 216, 203, 0.452);}
+
 
 /*メニューの一番上のボタンの基本の設定*/
 .each_menu {width: 95%;	height :100px;}
@@ -102,7 +94,7 @@ body{     margin-right: auto;    margin-left : auto;    width:80%;  background-c
 
 @keyframes kakudai_anime{0%{transform: scale(1)} 50%{transform: scale(0.85)}  100%{transform: scale(1)}}
 
-#logo_tizuzho_no_icon_click_please{position:relative;  width:1050px;  margin-top: 0px; margin-bottom: 0px;}
+#logo_tizuzho_no_icon_click_please{position:relative;  width:100%;  margin-top: 0px; margin-bottom: 0px;}
 #map_div{position:relative;  margin-top: 20px; zoom:0.705; } 
 
 /*テキストのフォントと位置指定*/
@@ -111,7 +103,7 @@ h2{    font-size: 30px; text-align:right;   }
 
 /*メインページのロゴ 位置指定*/
 #mainpage_rogo{position: relative; margin-top: 0px;}
-.each_logo{position:relative; margin-bottom:30px;}
+.each_logo{width:100%;position:relative; margin-bottom:30px;}
 #syutten{	text-align: right;	margin-top: 0px;}
 footer{	text-align: center;}
 
@@ -123,7 +115,9 @@ footer{	text-align: center;}
 .link_decolation:hover{color:red;
 }
 
-
+/* 更新履歴*/
+#kousin_rireki{width: 100%; 	height: auto;	 border: solid 5px rgb(250, 113, 2);
+	background-color:rgba(231, 216, 203, 0.452);}
 @media(min-width:700px){
 	body{     margin-right: auto;    margin-left : auto;    width:1050px;  background-color:antiquewhite;}
 

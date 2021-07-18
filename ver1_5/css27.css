@@ -37,7 +37,7 @@ body{     margin-right: auto;    margin-left : auto;    width:550px;  background
 
 
 /*マップ関係のCSS*/
-#map_div{position:relative; width:130%	;  zoom:0.705; 
+#map_div{position:relative; width:100%	;  zoom:0.705; 
 		margin-top: 20px; padding-left:20px; padding-right: 20px;
 	box-sizing: border-box;  overflow-x:scroll; overflow-y: hidden;}
 #map{border: solid 10px rgb(250, 113, 2)}
@@ -57,6 +57,8 @@ body{     margin-right: auto;    margin-left : auto;    width:550px;  background
 #huji_no_hana{position: absolute;top:-8%;left:150%;width:30%;}
 #jinku_omikuji{position: absolute;top:58%;left:150%;width:25%;}
 #takarabako_shingoro3{position:absolute;top:80%;left:178%;width:12%;}
+
+
 /*地図スクロールの説明*/
 #scroll_setumei{text-align: center; font-size: larger;margin:2% auto 5% auto;}
 

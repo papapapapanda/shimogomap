@@ -86,21 +86,19 @@ h2{    font-size: 30px; text-align:right;   }
 #logo_osusumeshiogo{width:70%}
 #logo_kapurotowa{width:100%}
 
-/*出典　リンク色付け　　 一部のブラウザでリンク表示にならないため*/
+/*出典*/
 #syutten{	text-align: right;	margin-top: 0px;}
 
-.link_decolation:hover{color:red;
-}
+/*リンクの色付け*/
+.link_decolation:hover{color:red;}
+.link_decolation{color:blue;	text-decoration:underline;}
 
 /* 更新履歴*/
-#kousin_rireki{width: 100%; 	height: auto;	 border: solid 5px rgb(250, 113, 2);
+#kousin_rireki{width: 100%; 	height: auto;	 border: double 5px rgb(250, 113, 2);
 	background-color:rgba(231, 216, 203, 0.452);}
 
-footer{	text-align: center;}.link_decolation{color:blue;
-		text-decoration:underline;
-	}
-	
-
+/*フッター*/
+footer{	text-align: center;background-color: gainsboro; border: solid 2px rgb(250, 113, 2);}
 
 @media(min-width:900px){
 body{width:900px;  }

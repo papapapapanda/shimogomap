@@ -98,7 +98,10 @@ h2{    font-size: 30px; text-align:right;   }
 	background-color:rgba(231, 216, 203, 0.452);}
 
 /*フッター*/
-footer{margin-top:3px;	text-align: center;background-color: rgba(231, 216, 203, 0.452); border: solid 2px rgb(250, 113, 2);}
+footer{margin-top:3px;	text-align:center;
+	font-size:x-small;
+	font-weight: bold;
+	background-color: rgba(231, 216, 203, 0.452); border: solid 2px rgb(250, 113, 2);}
 
 @media(min-width:900px){
 body{width:900px;  }

@@ -41,40 +41,22 @@ body{     margin-right: auto;    margin-left : auto;    width:375px;  background
 		margin-top: 20px; padding-left:20px; padding-right: 20px;
 	box-sizing: border-box;  overflow-x:scroll; overflow-y: hidden;}
 #map{border: solid 10px rgb(250, 113, 2)}
-#hutamatayama{position: absolute;top:-3.5%; left:36%; width:30%;}
-#onumazaki_tunnel{position: absolute; top:50%; left:8%;width:30%;}
-#sakuragi_hime_game{position:absolute; top:68%;left:41%;width:30%;}
-#yunokami_onsen{position: absolute;top:35%;left:40%;width:18%;} 
-#tono_heturi{position: absolute;top:25%;left:62%;width:19%;}
-#huketu{position: absolute;top:52%;left:65%;width:20%;}
-#takarabako_shingoro{position:absolute;top:4%;left:72%;width:12%;}
-#sainokami_game{position:absolute;top:59%;left:83%;width:20%;}
-#takarabako_shingoro2{position:absolute;top:88%;left:107%;width:10%;}  
-#soba_hatake_game{position:absolute;top:8%;left:98%;width:23%;}
-#kannon_numa{position:absolute;top:-1%;left:115%;width:25%;}
-#yamazakura_game{position:absolute; top:40%;left:120%;width:22%;}
-#heihou_stone{position:absolute;top:10%;left:132%;width:25%; }
-#huji_no_hana{position: absolute;top:-8%;left:150%;width:30%;}
-#jinku_omikuji{position: absolute;top:58%;left:150%;width:25%;}
-#takarabako_shingoro3{position:absolute;top:80%;left:178%;width:12%;}
-
-#hutamatayama{left:54%; width:45%;}
-#onumazaki_tunnel{left:12%;width:45%;}
-#sakuragi_hime_game{left:61.5%;width:45%;}
-#yunokami_onsen{left:60%;width:27%;} 
-#tono_heturi{left:93%;width:28.5%;}
-#huketu{left:97.5%;width:30%;}
-#takarabako_shingoro{left:100%;width:18%;}
-#sainokami_game{left:124.5%;width:30%;}
-#takarabako_shingoro2{left:160.5%;width:15%;}  
-#soba_hatake_game{left:147%;width:35.5%;}
-#kannon_numa{left:172.5%;width:37.5%;}
-#yamazakura_game{left:180%;width:33%;}
-#heihou_stone{left:198%;width:37.5%; }
-#huji_no_hana{left: 225%;width:45%;}
-#jinku_omikuji{left:225%;width:37.5%;}
-#takarabako_shingoro3{left:267%;width:18%;}
-
+#hutamatayama{position: absolute;top:-3.5%;left:54%; width:45%;}
+#onumazaki_tunnel{position: absolute; top:50%;left:12%;width:45%;}
+#sakuragi_hime_game{position:absolute; top:68%;left:61.5%;width:45%;}
+#yunokami_onsen{position: absolute;top:35%;left:60%;width:27%;} 
+#tono_heturi{position: absolute;top:25%;left:93%;width:28.5%;}
+#huketu{position: absolute;top:52%;left:97.5%;width:30%;}
+#takarabako_shingoro{position:absolute;top:4%;left:100%;width:18%;}
+#sainokami_game{position:absolute;top:59%;left:124.5%;width:30%;}
+#takarabako_shingoro2{position:absolute;top:88%;left:160.5%;width:15%;}  
+#soba_hatake_game{position:absolute;top:8%;left:147%;width:35.5%;}
+#kannon_numa{position:absolute;top:-1%;left:172.5%;width:37.5%;}
+#yamazakura_game{position:absolute; top:40%;left:180%;width:33%;}
+#heihou_stone{position:absolute;top:10%;left:198%;width:37.5%; }
+#huji_no_hana{position: absolute;top:-8%;left: 225%;width:45%;}
+#jinku_omikuji{position: absolute;top:58%;left:225%;width:37.5%;}
+#takarabako_shingoro3{position:absolute;top:80%;left:267%;width:18%;}
 
 /*地図スクロールの説明*/
 #scroll_setumei{text-align: center; font-size: larger;margin:2% auto 5% auto;}
@@ -122,6 +104,7 @@ footer{	text-align: center;}.link_decolation{color:blue;
 
 @media(min-width:900px){
 body{width:900px;  }
+#se #se_2{display:inline}
 #scroll_setumei{display:none;}
 .each_menu {float:left;	margin: 1% 0.2% 0 0.2%;	width: 220px;	}
 .each_menu > #menu1, #menu2, #menu3, #menu4{font-size: 15px; }

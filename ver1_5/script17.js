@@ -2,7 +2,6 @@
     function click_se() {document.getElementById("se").play();}
     function click_se_jarn() {document.getElementById("se_2").play();} 
 
-
 //ヘッダーのメニュー     
     $(function(){
     $('.each_menu').children('a').on('click', function(event){

@@ -1,5 +1,10 @@
 body{     margin-right: auto;    margin-left : auto;    width:375px;  background-color:antiquewhite;}
+/*バージョン情報*/
+#version_info{
+	font-family: fantasy;
+	color:chocolate;
 
+}
 /*メニューの一番上のボタンの基本の設定*/
 .header_menu {	height: 25px;	position: relative;    z-index:100;	}
 .each_menu { cursor: pointer;	float:left;	margin: 1%;width: 95%;	list-style: none;}
